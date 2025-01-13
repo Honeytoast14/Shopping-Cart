@@ -1,0 +1,25 @@
+.cart {
+  p {
+    margin: 0;
+  }
+
+  .container {
+    padding: 0 100px;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  .name {
+    p {
+      padding-top: 20px;
+      width: 400px;
+    }
+  }
+
+  .amount {
+    gap: 20px;
+  }
+}

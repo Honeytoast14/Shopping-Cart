@@ -1,0 +1,54 @@
+@use "materials" as *;
+
+.product-detail {
+  padding-bottom: 300px;
+
+  img {
+    width: 300px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .product-info {
+    padding: 40px 0;
+  }
+
+  .amount-text {
+    width: 2.4rem;
+    text-align: center;
+    border-top: grey solid 2px;
+    border-bottom: grey solid 2px;
+  }
+
+  .add-cart-btn {
+    margin-left: 25px;
+  }
+
+  button {
+    background: $primary-brown;
+    color: white;
+  }
+
+  button:hover {
+    background: $hover-btn;
+  }
+
+  .star {
+    padding-right: 10px;
+  }
+
+  .name-description {
+    h2 {
+      padding-bottom: 10px;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.star {
+  color: rgb(255, 223, 117);
+}
